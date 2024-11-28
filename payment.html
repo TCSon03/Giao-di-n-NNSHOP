@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section class="container max-w-screen-xl m-auto flex items-center justify-between py-4">
+            <img src="assets/images/logo.png" alt="logo" />
+            <ul class="flex gap-8 font-medium text-xl">
+                <li class="hover:text-amber-500"><a href="index.html">Home</a></li>
+                <li class="hover:text-amber-500"><a href="shop.html">Shop</a></li>
+                <li class="hover:text-amber-500"><a href="about.html">About</a></li>
+                <li class="hover:text-amber-500"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="flex gap-4">
+                <a href="payment.html"><span class="material-symbols-outlined hover:text-[#FF9900]">person</span></a>
+                <span class="material-symbols-outlined hover:text-[#FF9900]">search</span>
+                <span class="material-symbols-outlined hover:text-[#FF9900]">favorite</span>
+                <a href="cart.html"><span
+                        class="material-symbols-outlined hover:text-[#FF9900]">shopping_cart</span></a>
+            </div>
+        </section>
+        <!--End Navigation bar -->
+    </header>
+    <main>
+        <section class="container max-w-screen-xl m-auto">
+            <h1 class="font-semibold text-[40px] mt-16 mb-8">Billing details</h1>
+            <div class="grid grid-cols-2 gap-8 mb-16">
+                <div>
+                    <form action="#">
+                        <div class="grid grid-cols-2 gap-8 mb-8">
+                            <div>
+                                <label for="" class="font-medium">First Name</label>
+                                <input type="text"
+                                    class="border border-solid border-natral-300 block w-full mt-2 outline-none h-[40px]">
+                            </div>
+                            <div>
+                                <label for="" class="font-medium mb-2">Last Name</label>
+                                <input type="text"
+                                    class="border border-solid border-natral-300 block w-full mt-2  outline-none h-[40px]">
+                            </div>
+                        </div>
+                        <div class="mb-8">
+                            <div>
+                                <label for="" class="font-medium">Company Name (Optional)</label>
+                                <input type="text"
+                                    class="border border-solid border-natral-300 block w-full mt-2 outline-none h-[40px]">
+                            </div>
+                        </div>
+                        <div class="mb-8">
+                            <div>
+                                <label for="" class="font-medium">Country / Region</label>
+                                <select name="" id=""
+                                    class="border border-solid border-natral-300 block w-full mt-2 outline-none py-2 h-[40px] px-4">
+                                    <option value="" class="text-[#A3A3A3]">Sri Lanka</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-8">
+                            <div>
+                                <label for="" class="font-medium">Street address</label>
+                                <input type="text"
+                                    class="border border-solid border-natral-300 block w-full mt-2 outline-none h-[40px]">
+                            </div>
+                        </div>
+                        <div class="mb-8">
+                            <div>
+                                <label for="" class="font-medium">Town / City</label>
+                                <input type="text"
+                                    class="border border-solid border-natral-300 block w-full mt-2 outline-none h-[40px]">
+                            </div>
+                        </div>
+                        <div class="mb-8">
+                            <div>
+                                <label for="" class="font-medium">Province</label>
+                                <select name="" id=""
+                                    class="border border-solid border-natral-300 block w-full mt-2 outline-none py-2 h-[40px] px-4">
+                                    <option value="" class="text-[#A3A3A3]">Western Province</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-8">
+                            <div>
+                                <label for="" class="font-medium">ZIP code</label>
+                                <input type="text"
+                                    class="border border-solid border-natral-300 block w-full mt-2 outline-none h-[40px]">
+                            </div>
+                        </div>
+                        <div class="mb-8">
+                            <div>
+                                <label for="" class="font-medium">Phone</label>
+                                <input type="text"
+                                    class="border border-solid border-natral-300 block w-full mt-2 outline-none h-[40px]">
+                            </div>
+                        </div>
+                        <div class="mb-8">
+                            <div>
+                                <label for="" class="font-medium">Email address</label>
+                                <input type="text"
+                                    class="border border-solid border-natral-300 block w-full mt-2 outline-none h-[40px]">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <div class="flex justify-between">
+                        <h3 class="font-bold text-3xl">Product</h3>
+                        <h3 class="font-bold text-3xl">Subtotal</h3>
+                    </div>
+                    <div class="flex justify-between my-4">
+                        <p class="text-[#A3A3A3]">Breezy Bar Set <span class="text-[#262626] ml-3 font-medium">X1</span>
+                        </p>
+                        <p class="text-[#262626] font-medium text-xl">100.120.000đ</p>
+                    </div>
+                    <div class="flex justify-between my-4">
+                        <p class="font-base">Subtotal</p>
+                        <p class="text-[#262626] font-medium text-xl">100.120.000đ</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <p class="font-base">Total</p>
+                        <p class="text-[#262626] font-medium text-2xl text-[#B88E2F]">100.120.000đ</p>
+                    </div>
+                    <hr class="my-8">
+                    <div class="align-items-center mb-[11px]">
+                        <input type="radio">
+                        <label for="" class="font-medium ml-2">Direct Bank Transfer</label>
+                    </div>
+                    <p class="text-[#A3A3A3]">Make your payment directly into our bank account. Please use your Order ID
+                        as the payment
+                        reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                    <div class="align-items-center my-4">
+                        <input type="radio">
+                        <label for="" class="text-[#A3A3A3] ml-2">ATM Bank Transfer</label>
+                    </div>
+                    <div class="align-items-center mb-8">
+                        <input type="radio">
+                        <label for="" class="text-[#A3A3A3] ml-2">Cash On Delivery</label>
+                    </div>
+
+                    <p>Your personal data will be used to support your experience throughout this website, manage access
+                        to your account, and select other purposes described in our <span class="font-medium">privacy
+                            policy. 😊</span>.</p>
+
+                    <div class="text-center mt-8">
+                        <a href=""
+                            class="border border-solid border-yellow-600 text-yellow-600 font-semibold py-2 px-20 inline-block hover:bg-[#CA8A04] hover:text-white">Place
+                            order</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#262626] text-[#FFFFFF] pt-16 pb-8">
+        <div class="container max-w-screen-xl m-auto grid grid-cols-4 gap-8 mb-16">
+            <div>
+                <img src="assets/images/footer-logo.png" class="mb-4" alt="">
+                <p>400 University Drive Suite 200 Coral Gables,FL 33134 USA</p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Sitemap</h3>
+                <ul>
+                    <li class="mb-4 hover:text-[#FF9900]"><a href="">Home</a></li>
+                    <li class="mb-4 hover:text-[#FF9900]"><a href="">Shop</a></li>
+                    <li class="mb-4 hover:text-[#FF9900]"><a href="">About</a></li>
+                    <li class="hover:text-[#FF9900]"><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Help</h3>
+                <ul>
+                    <li class="mb-4 hover:text-[#FF9900]"><a href="">Payment Options</a></li>
+                    <li class="mb-4 hover:text-[#FF9900]"><a href="">Returns</a></li>
+                    <li class="hover:text-[#FF9900]"><a href="">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Location</h3>
+                <ul>
+                    <li class="mb-4 hover:text-[#FF9900]"><a href="">support@euphoria.in</a></li>
+                    <li class="mb-4 hover:text-[#FF9900]"><a href="">Ahmedabad Main Road</a></li>
+                    <li class="hover:text-[#FF9900]"><a href="">Udaipur, India- 313002</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="max-w-screen-xl m-auto mb-8">
+        <p class="text-center m-auto">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
